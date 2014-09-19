@@ -1,0 +1,40 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="jquery.mobile-1.4.4.min.css">
+	<script src ="jquery-1.10.2.js"></script>
+	<script src ="jquery.mobile-1.4.4.js"></script>
+</head>
+<body>
+	<div data-role="page" id="pageone">
+		<div data-role="header">
+			<h1> First Page
+			</h1>
+		</div>
+		<div>
+			<a href="#pagetwo" data-transition="slide">Slide to a page</a>
+		</div>
+			<div role="main" class="ui-content">
+				<p text-align="center">HELLO WORLD</p>
+			</div>
+
+			<div data-role ="footer">
+				<H1>FOOTER</H1>
+			</div>
+	</div>
+
+	<div data-role="page" id="pagetwo">
+		<div data-role="header">
+			<h1> Second Page
+			</h1>
+			<a href="#" data-role="button" data-inline="true" data-rel="back" data-icon="arrow-l">Go Back</a>
+		</div>
+			<div role="main" class="ui-content">
+				<p>HELLO GHANA</p>
+			</div>
+
+			<div data-role ="footer">
+				<H1>FOOTER</H1>
+			</div>
+	</div>
+</body>
+</html>
